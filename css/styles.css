@@ -56,6 +56,13 @@ h1 {
         transform: rotate(0);
         width: 100%;
     }
+    
+}
+@media (min-width: 765px) and (max-width: 1028px) {
+    .bigchonk {
+        position: relative;
+        margin-left: 25%;
+    }
 }
 
 /* Feature */
@@ -123,6 +130,7 @@ h2 {
 /* Pricing */
 #pricing {
     padding: 100px;
+    text-align: center;
 }
 .pricing-column {
     padding: 3% 2%;
